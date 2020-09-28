@@ -1,11 +1,10 @@
 # Site settings
 title: One Blog
-SEOTitle: One Blog | 文鹃阁
+SEOTitle: One Blog | Market
 header-img: img/green-bg.jpg
-email: yarkable@gmail.com
 description: "Plz go to study now !"
-keyword: "棒棒鸡不棒, One, one, One Blog, 凯, kevin, KevinYe, 文鹃阁"
-url: "https://yarkable.github.io"          # your host, for absolute URL
+keyword: " One, one, One Blog, 凯, kevin, KevinYe, 文鹃阁"
+url: "https://kentio.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/yarkable/yarkable.github.io.git" # you code repository
 
@@ -13,16 +12,6 @@ github_repo: "https://github.com/yarkable/yarkable.github.io.git" # you code rep
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Life is short, so seize the day!"
 sidebar-avatar: /img/self-introduce.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
-
-
-
-# SNS settings
-RSS: false
-weibo_username:     5532339354
-zhihu_username:     li-zhi-12-92
-github_username:    yarkable
-jianshu_username:   5e14129c4ad7
-
 
 
 
@@ -52,22 +41,6 @@ kramdown:
   input: GFM                            # use Github Flavored Markdown !important
 
 
-
-# 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
-
-# Gitalk
-gitalk:
-  enable: true    #是否开启Gitalk评论
-  clientID: 34724aee4f9331859352                            #生成的clientID
-  clientSecret: eb79d9acd4dd21ee85de8fde1f1766a6108e8836    #生成的clientSecret
-  repo: yarkable.github.io    #仓库名称
-  owner: yarkable    #github用户名
-  admin: yarkable
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
-
 # 统计
 
 # Analytics settings
@@ -75,7 +48,7 @@ gitalk:
 # ba_track_id: b50bf2b12b5338a1845e33832976fd68
 
 # Google Analytics
-ga_track_id: 'UA-136373362-1'            # Format: UA-xxxxxx-xx
+ga_track_id: 'UA-111334129-4'            # Format: UA-xxxxxx-xx
 ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
@@ -93,30 +66,6 @@ featured-condition-size: 0 #1              # 相同标签数量大于这个数�
 chrome-tab-theme-color: "#000000"
 service-worker: true
 
-
-
-# Friends
-friends: [
-    {
-        title: "萌歪小博客",
-        href: "http://www.moeyy.cn/"
-    },{
-        title: "昱聪师兄的Blog",
-        href: "https://wnxbwyc.github.io/"
-    },{
-        title: "小茗",
-        href: "https://chikorita.fun/"
-    },{
-        title: "小白",
-        href: "https://wulidecade.cn/"
-    },{
-        title: "阿鹏",
-        href: "https://apeng.fun/"
-    },{
-        title: "PRIN",
-        href: "https://printempw.github.io/"
-    }
-]
 
 # markdown LaTeX
 markdown: kramdown
